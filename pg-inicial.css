@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+body {
+    animation: changeBackgroundImage 15s infinite;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+@keyframes changeBackgroundImage {
+  0% {
+    background-image: url(wallhaven-r2z8vq_3840x2160.png);
+  }
+  25% {
+    background-image: url(wallhaven-r7mgm7.jpg);
+  }
+  50% {
+    background-image: url(wallhaven-47dw3y.jpg);
+  }
+  75% {
+    background-image: url(wallhaven-8x73xk.jpg);
+  }
+  100% {
+    background-image: url(wallhaven-r2z8vq_3840x2160.png);
+  }
+}
+
+:root {
+    --rubik: 'Rubik', sans-serif;
+}
+
+#menu {
+    padding: 30px;
+}
+
+.ul-menu > .li-menu, #li-icon {
+    display: inline-block;
+}
+
+#li-icon {
+    list-style: none;
+}
+
+.li-menu {
+    list-style: none;
+    display: inline-block;
+    list-style: none;
+    padding-left: 20px;
+}
+
+#icon-menu {
+    width: 60px;
+    height: 60px;
+    padding-left: 25px;
+    padding-right: 700px;
+}
+
+.li-menu a {
+    text-decoration: none;
+    color: white;
+    font-family: var(--rubik);
+    font-size: 20px;
+}
+
+.li-menu a:hover {
+    border-bottom: solid 3px #FF1500;
+}
+
+#frase {
+    position: relative;
+}
